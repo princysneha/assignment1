@@ -76,13 +76,7 @@ export default {
 <style>
 
 .container {
-  /* display: flex; */
   position: relative;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* height: 100vh; */
-  /* background-image: url(~@/assets/4479865.jpg); */
-  /* background-size: cover; */
 }
 
 .card{
@@ -93,7 +87,6 @@ export default {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
-  /* Other card styling properties */
 }
 
 
@@ -102,7 +95,7 @@ export default {
   background-image: url(~@/assets/4479865.jpg);
   background-size: cover;
   background-position: center;
-  height: 645px; /* Adjust the height as needed */
+  height: 645px;
   border-radius: 8px;
 }
 
@@ -137,19 +130,5 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #45a049;
-}
-
-input:invalid {
-  border-color: red;
-}
-
-input:invalid + span::before {
-  content: '✖ ';
-  color: red;
-}
-
-input:valid + span::before {
-  content: '✓ ';
-  color: green;
 }
 </style>
