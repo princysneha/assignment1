@@ -4,7 +4,7 @@
 ```
 yarn install
 ```
-
+### Every thing has been setup already only run the yarn serve
 ### Compiles and hot-reloads for development
 ```
 yarn serve
